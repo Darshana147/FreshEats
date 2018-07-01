@@ -1,0 +1,341 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+background-color:#F0FFF0;
+}
+
+header
+{
+    /*background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(reserv-bg2.jpg);*/
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.cname
+{
+font-family: 'Rochester', cursive;
+color:  #F0E68C;
+font-size: 60px;
+font-weight: 400;
+position:relative;
+	top: 150px;
+	margin-right:40px;
+	text-align:center;
+	
+
+}
+.book{
+
+font-family: 'Rokkitt', serif;
+color:  #D3D3D3;
+font-size: 60px;
+font-weight: 570;
+position:relative;
+	top: 160px;
+	margin-right:40px;
+	text-align:center;
+	
+
+}
+.hero
+{
+    position: absolute;
+	color: brown;
+    width: 1200px;
+    margin-top: 0px;
+    margin-left: 0px;
+	font-size: 18px;
+    
+}
+.data
+{
+position: absolute;
+ margin-top: 100px;
+    margin-left: 90px;
+	font-family:  'Lobster Two', cursive;
+	font-size: 30px;
+	letter-spacing: 5px;
+	//font-weight:900;
+}
+.reserv
+{
+	margin-top:600px;
+	margin-left:430px;
+	font-size: 53px;
+	font-family: 'Pacifico', cursive;
+	color: grey;
+	
+}
+.poss
+{
+	margin-top:-12px;
+	margin-left:430px;
+	font-size: 25px;/*
+	font-family: 'Pacifico', cursive;
+	color: grey;*/
+	
+}
+
+.div1
+{
+	background-color: #FFFFF0;
+	opacity:0.8; 
+	width: 900px;
+	height: 550px;
+	position: fixed;
+	margin-left: 220px;
+	margin-top: 100px;	
+}
+#navbar {
+  overflow: hidden;
+  opacity:0.8;
+  background-color: #000000;
+  transition: top 0.3s;
+  z-index: 1;
+   font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 46px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  background-color: #FFFF99	;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #000000	;
+  color:  #FFFF99;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img/reserv_bg.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+  margin: -20px 0; /* need some nice spacing here */
+  position: relative; /* this one is important */
+}
+
+input[type="text"] {
+  padding: 15px 0 15px;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #34495e;
+  font-size: 20px;
+  background: #ecf0f1;
+}
+
+/*magic happens here */
+input[type="text"]:focus{
+  outline: none;
+  border-color: brown;
+}
+::placeholder {
+  color: grey;
+  font-family:  'Lobster Two', cursive;
+  font-size: 30px;
+}
+
+.error
+{
+	color:red;
+	position: absolute;
+    margin-top: 80px;
+	font-weight:600;
+    margin-left: 320px;
+}
+.success
+{
+	color:green;
+	position: absolute;
+    margin-top: 80px;
+    font-weight:600;
+    margin-left: 540px;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+button {
+  position:relative;
+  margin-top:-155px;
+  background:#055388;
+  border:1px solid white;
+  border-radius: 20px;
+  padding:20px;
+ 
+  color:white;
+  box-shadow:4px 4px 0px 0px white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  letter-spacing:5px;
+
+  transition: all 300ms ease-in-out;
+  left:50px;
+}
+
+button:hover {
+  left:4px;
+  top:4px;
+  box-shadow:0 0 0 0 yellow;
+}
+
+
+
+
+.wrap {
+  width: 530px;
+  margin: 0 auto;
+  font-family: Lato, sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+button {
+  position:relative;
+  margin-top:10%;
+  background:#A0522D;
+  opacity:0.8;
+  border:1px solid white;
+  padding:20px;
+  font-size:0.9em;
+  color:white;
+  box-shadow:4px 4px 0px 0px white;
+  	font-family:  'Lobster Two', cursive;
+  font-weight:700;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  transition: all 300ms ease-in-out;
+  left:0;
+  top:0;
+}
+
+button:hover {
+  left:4px;
+  top:4px;
+  box-shadow:0 0 0 0 white;
+}
+
+
+/*image effect*/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	margin-top:-65px;
+	margin-left:1070px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
